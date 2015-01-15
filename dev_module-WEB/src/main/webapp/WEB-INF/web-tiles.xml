@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+              "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition" template="/WEB-INF/views/btemplate/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/btemplate/header.jsp" />
+		<put-attribute name="menu-vertical"
+			value="/WEB-INF/views/btemplate/menu-vertical.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/btemplate/footer.jsp"></put-attribute>
+		<put-attribute name="menu" value="/WEB-INF/views/btemplate/menu.jsp" />
+		<put-attribute name="body" value="" />
+	</definition>
+	
+	<definition name="bootstrap.definition" template="/WEB-INF/views/register-page/index.jsp">
+		<put-attribute name="title" value="4OP - Sistema de Gestão" />
+		<put-attribute name="body" value="" />
+	</definition>	
+		
+</tiles-definitions>
+    
+    
